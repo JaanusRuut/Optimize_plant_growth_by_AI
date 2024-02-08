@@ -15,11 +15,6 @@ The project focuses on the application of artificial intelligence to analyze and
 
 The idea addresses the challenge of optimizing plant growth conditions to enhance yield and efficiency in gardening and agriculture. This problem is widespread, as environmental factors significantly impact plant health and productivity. My personal motivation stems from a desire to integrate technology with nature, improving sustainable farming practices. This topic is important because it offers a solution to global food security challenges by maximizing crop yield with minimal resources. It's interesting due to its potential to revolutionize traditional farming methods through AI, making it relevant for farmers, hobbyists, and researchers alike.
 
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
-
 
 ## How is it used?
 
@@ -89,7 +84,7 @@ model.fit(X_train, y_train)
 score = model.score(X_test, y_test)
 print(f'Model accuracy: {score}')
 
-new_data = np.array([[50, 700, 21]])  # Uued andmed: mulla niiskus, valgustus, temperatuur
+new_data = np.array([[50, 700, 21]])  # New data: soil moisture, lighting, temperature
 predicted_growth_rate = model.predict(new_data)
 print(f'Predicted plant growth rate: {predicted_growth_rate[0]}')
 
